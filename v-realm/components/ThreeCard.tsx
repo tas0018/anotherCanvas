@@ -10,7 +10,7 @@ function ThreeCard() {
             <h2 className="font-semibold text-2xl font-Poppins ">
               Architectural
             </h2>
-            <div className="h-12 w-12 rounded-full bg-blue-shade hover:bg-logo-pink transition ease-in delay-200">
+            <div className="h-12 w-12 rounded-full cursor-pointer bg-blue-shade hover:bg-logo-pink transition ease-in delay-200">
               <div className="w-full h-full flex flex-col items-center justify-center">
                 <Image
                   src={"/right-arrow.svg"}
@@ -29,7 +29,7 @@ function ThreeCard() {
             <h2 className="font-semibold text-2xl font-Poppins ">
               Interior Design
             </h2>
-            <div className="h-12 w-12 rounded-full bg-blue-shade hover:bg-logo-pink transition ease-in delay-200">
+            <div className="h-12 w-12 rounded-full cursor-pointer bg-blue-shade hover:bg-logo-pink transition ease-in delay-200">
               <div className="w-full h-full flex flex-col items-center justify-center">
                 <Image
                   src={"/right-arrow.svg"}
@@ -48,7 +48,7 @@ function ThreeCard() {
             <h2 className="font-semibold text-2xl font-Poppins ">
               2D Floor Plans
             </h2>
-            <div className="h-12 w-12 rounded-full bg-blue-shade hover:bg-logo-pink transition ease-in delay-200">
+            <div className="h-12 w-12 rounded-full cursor-pointer bg-blue-shade hover:bg-logo-pink transition ease-in delay-200">
               <div className="w-full h-full flex flex-col items-center justify-center">
                 <Image
                   src={"/right-arrow.svg"}
