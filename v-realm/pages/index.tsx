@@ -9,6 +9,7 @@ import ClipboardIcon from "../components/ClipboardIcon"
 import Ribbon from "../components/Ribbon"
 import Gallery from "../components/Gallery"
 import ContactForm from "../components/ContactForm"
+import Footer from "../components/Footer"
 
 const text = "Test"
 
@@ -128,6 +129,7 @@ const HomePage = () => {
       </div>
 
       <ContactForm />
+      <Footer />
     </div>
   )
 }
