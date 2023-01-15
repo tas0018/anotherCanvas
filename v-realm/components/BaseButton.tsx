@@ -6,7 +6,7 @@ interface BtnText {
 
 const BaseButton = ({ btnText }: { btnText: string }) => {
   return (
-    <div className="flex justify-center">
+    <div className="flex justify-center items-center">
       <div className="w-44 h-12 bg-blue-shade">
         <a
           href="/"
